@@ -4,7 +4,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-# working
 trainSet = pd.read_csv("train.csv")
 testSet = pd.read_csv("test.csv")
 #sm = pd.read_csv("sm.csv")
